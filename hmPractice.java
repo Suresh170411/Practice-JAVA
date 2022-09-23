@@ -11,7 +11,7 @@ public class hmPractice {
         // insertion 
         System.out.println(hm);
 
-        // lookup or search 
+        // lookup or search operation
         // System.out.println(hm.containsKey("India"));
         if (hm.containsKey("China")){
             System.out.println("Yes the key is present in the HashMap");
