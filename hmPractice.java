@@ -23,7 +23,7 @@ public class hmPractice {
 
         // it returns the value which is assosiate with corresponding key;
 
-        System.out.println(hm.get("China")); // key exist
-        System.out.println(hm.get("Indonesia")); // key doesn't exitst
+        System.out.println(hm.get("China")); // key exist --> VALUE
+        System.out.println(hm.get("Indonesia")); // key doesn't exitst --> NULL
     }
 }
