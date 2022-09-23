@@ -37,10 +37,14 @@ public class hmPractice {
 
         Set<String> keys = hm.keySet(); // --> made a set of only KEYs
         // System.out.println(keys);
-        
+
         for (String k : keys) {
-            System.out.println(k);
+            System.out.println(k+" "+hm.get(k));
         }
 
+
+        // REMOVE
+        hm.remove("China");
+        System.out.println(hm);
     }
 }
