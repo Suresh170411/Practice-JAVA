@@ -32,16 +32,14 @@ public class hmPractice {
             System.out.println(e.getKey() + " ---> " + e.getValue());
         }
 
-
         // operations on KEY only
 
         Set<String> keys = hm.keySet(); // --> made a set of only KEYs
         // System.out.println(keys);
 
         for (String k : keys) {
-            System.out.println(k+" "+hm.get(k));
+            System.out.println(k + " " + hm.get(k));
         }
-
 
         // REMOVE
         hm.remove("China");
