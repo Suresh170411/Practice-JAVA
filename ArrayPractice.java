@@ -14,9 +14,16 @@ public class ArrayPractice {
             marks[i] = sc.nextInt();
         }
 
-        for (int i = 0; i < size; i++) {
-            System.out.println(marks[i]);
-        }
+        // for (int i = 0; i < size; i++) {
+        // System.out.println(marks[i]);
+        // }
+
+        int i = 0;
+        do {
+            System.out.println(marks[i]);       // do while loop iteration
+            i++;
+        } while (i < size);
+
         sc.close();
 
     }
