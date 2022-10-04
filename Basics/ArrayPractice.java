@@ -20,11 +20,12 @@ public class ArrayPractice {
 
         int i = 0;
         do {
-            System.out.print(marks[i]+" ");       // do while loop iteration
+            System.out.print(marks[i]+" ");     // do while loop iteration
             i++;
         } while (i < size);
 
-        sc.close(); // closed connction here for scanner class
+        sc.close();     // closed connction here for scanner class
 
     }
+    
 }
