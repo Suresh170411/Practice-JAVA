@@ -16,7 +16,7 @@ public class ArList {
 
         Collections.sort(candles, Collections.reverseOrder());
 
-        System.out.println(candles);
+        System.out.println(candles); //
 
     }
 }
