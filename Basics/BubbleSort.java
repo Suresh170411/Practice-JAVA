@@ -24,7 +24,7 @@ public class BubbleSort {
     //     printArr(arr);
 
     // }
-
+    // swapping function
     public static int[] swap(int [] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
