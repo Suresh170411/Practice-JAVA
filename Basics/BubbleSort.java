@@ -32,6 +32,14 @@ public class BubbleSort {
 
         return arr;
     }
+
+    public static void printArr(int [] arr){
+        for (int i=0; i<arr.length; i++){
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         
         int [] arr = {4,2,6,3,7,1,9,0};
@@ -44,6 +52,7 @@ public class BubbleSort {
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
+        printArr(arr);
     }
 }
