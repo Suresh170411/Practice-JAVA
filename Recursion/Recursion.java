@@ -8,7 +8,7 @@ public class Recursion {
         if(n == 0){
             return;
         }
-        System.out.print(n+" ");
+        System.out.print(n+" ");    // printing nubmers in REVERSE using RECURSION..
         printNum(n-1);
 
     }
