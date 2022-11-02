@@ -3,7 +3,7 @@ package Recursion;
 public class Recursion {
     public static void printNum(int n){
         if (n == 0){
-            return;
+            return;                     // reversing a number using recursion
         }
         System.out.print(n+" ");
         printNum(n-1);
