@@ -22,8 +22,8 @@ public class Hashmap {
 
         System.out.println(hm.containsKey("Odisha"));   // --> It will return TRUE/false based on the avalability of the key
 
-        
-
+        System.out.println(hm.keySet()); // --> It will return all the KEYS present in the HashMap
+        System.out.println(hm.values()); // --> It will return all the VALUES present in the HashMap
     }
 
 }
