@@ -12,7 +12,17 @@ public class Hashmap {
         hm.put("Odisha", "BBSR");
         hm.put("WestBengal", "Kolkata");
 
-        System.out.println(hm);         // ---> {WestBengal=Kolkata, Odisha=BBSR}
+        //System.out.println(hm);         // ---> {WestBengal=Kolkata, Odisha=BBSR}
+
+        if (hm.containsKey("Odisha")){
+            System.out.println("Yes Odisha is present in the HashMap");
+        }else {
+            System.out.println("No man nothing is there..");
+        }
+
+        System.out.println(hm.containsKey("Odisha"));   // --> It will return TRUE/false based on the avalability of the key
+
+        
 
     }
 
