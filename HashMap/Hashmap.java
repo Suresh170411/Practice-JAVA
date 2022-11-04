@@ -12,7 +12,7 @@ public class Hashmap {
         hm.put("Odisha", "BBSR");
         hm.put("WestBengal", "Kolkata");
 
-        //System.out.println(hm);         // ---> {WestBengal=Kolkata, Odisha=BBSR}
+        System.out.println(hm);         // ---> {WestBengal=Kolkata, Odisha=BBSR}
 
         if (hm.containsKey("Odisha")){
             System.out.println("Yes Odisha is present in the HashMap");
@@ -24,6 +24,12 @@ public class Hashmap {
 
         System.out.println(hm.keySet()); // --> It will return all the KEYS present in the HashMap
         System.out.println(hm.values()); // --> It will return all the VALUES present in the HashMap
+
+        System.out.println(hm.entrySet()); // --> [WestBengal=Kolkata, Odisha=BBSR]
+
+        for (Map.Entry<String,String> h : hm.entrySet()){
+            System.out.println(h.getKey()+"=="+h.getValue());     // FOR LOOP for HashMap
+        }
     }
 
 }
