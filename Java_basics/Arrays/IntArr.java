@@ -16,5 +16,14 @@ public class IntArr {
         System.out.println(Arrays.toString(marks));
         System.out.println(Arrays.toString(names));
 
+        // =============== FOR LOOPS ===================
+        for (int i=0; i<names.length; i++){
+            System.out.println(names[i]);
+        }
+
+        for (String s : names){
+            System.out.println(s);      // ENHANCHED FOR LOOP
+        }
+
     }
 }
