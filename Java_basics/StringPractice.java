@@ -11,6 +11,7 @@ public class StringPractice {
         String str = new String(arr);
         System.out.println(str);    // --> Masai
     }
+    
     public static void main(String[] args) {
         byte [] byte_arr = {100,101,102};
         check_byte_arr(byte_arr);
