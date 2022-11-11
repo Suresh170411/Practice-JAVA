@@ -1,4 +1,4 @@
-package Java_basics;
+package Java_basics.String;
 
 public class StringPractice {
 
