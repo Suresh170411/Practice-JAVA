@@ -17,7 +17,7 @@ public class IntArr {
         System.out.println(Arrays.toString(names));
 
         // =============== FOR LOOPS ===================
-        for (int i=0; i<names.length; i++){
+        for (int i=0; i<names.length; i++){     // normal for loop
             System.out.println(names[i]);
         }
 
