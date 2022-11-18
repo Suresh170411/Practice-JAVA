@@ -9,6 +9,8 @@ public class ArmStrongNum {     // check ARM STRONG num (1^3 + 5^3 + 3^3 = 1+125
         // }else {
         //     System.out.println("This number is not ArmStrong");
         // }
+
+        System.out.println(countDigit(input));
     }
 
     public static boolean isArmStrong(int input){
@@ -24,7 +26,7 @@ public class ArmStrongNum {     // check ARM STRONG num (1^3 + 5^3 + 3^3 = 1+125
         return input == sum;
     }
 
-    public static int countDigit(int input){
+    public static int countDigit(int input){        // count digit logic
         
         int count = 0;
 
