@@ -15,13 +15,11 @@ public class ArmStrongNum {     // check ARM STRONG num (1^3 + 5^3 + 3^3 = 1+125
         int j = input;
         int digit = 0;
         int sum = 0;
-
         int numberOfDigit = countDigit(input);
 
         while(j > 0){
             digit = j%10;
             j = j/10;
-
             sum+= Math.pow(digit, numberOfDigit);
         }
         return input == sum;
@@ -30,7 +28,6 @@ public class ArmStrongNum {     // check ARM STRONG num (1^3 + 5^3 + 3^3 = 1+125
     public static int countDigit(int input){        // count digit logic
         
         int count = 0;
-
         while(input > 0){
             input = input/10;
             count++;
