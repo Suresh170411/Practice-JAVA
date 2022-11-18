@@ -1,6 +1,6 @@
 package CloudTech;
 
-public class CheckPalindrome {
+public class CheckPalindrome {              // CHEKC FOR PALINDROME USING TWO POINTER
     public static void main(String[] args) {
         
         String input = "My name is nitin and I can speak malayalam";
