@@ -27,7 +27,6 @@ public class StrSortBrute {
             }
             i += 1;
         }
- 
         // By now loop is done means we have
         // iterated the whole array
         System.out.println(arr);
