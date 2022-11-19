@@ -10,7 +10,6 @@ public class StrSortBrute {
  
         // Nested loops for comparison of characters
         // in above character array
-       
         char temp;
  
         int i = 0;
