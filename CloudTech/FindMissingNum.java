@@ -6,7 +6,7 @@ public class FindMissingNum {
         int [] arr = {1,2,3,4,5,6,7,9};
 
         int n = arr.length;
-        int sum = (n*n+1)/2;
+        int sum = ((n+1)*(n+2))/2;
 
         // System.out.println(sum);
 
@@ -16,5 +16,6 @@ public class FindMissingNum {
             actualSum+= arr[i];
         }
 
+        System.out.println("The missing number is: "+(sum-actualSum));
     }
 }
