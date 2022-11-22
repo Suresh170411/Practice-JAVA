@@ -13,7 +13,7 @@ public class HalfUpperCase {
             lower+= str.charAt(i);
         }
 
-        for (int i=mid; i<n; i++){
+        for (int i=mid; i<str.length(); i++){
             upper+= str.charAt(i);
         }
 
