@@ -10,11 +10,11 @@ public class HalfUpperCase {
         String upper = "";
 
         for (int i=0; i<mid; i++){
-            lower+= str.charAt(i);
+            lower+= Character.toLowerCase(str.charAt(i));
         }
 
         for (int i=mid; i<str.length(); i++){
-            upper+= str.charAt(i);
+            upper+= Character.toUpperCase(str.charAt(i));
         }
 
         System.out.println(lower+upper);
