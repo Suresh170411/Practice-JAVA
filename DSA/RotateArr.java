@@ -1,11 +1,15 @@
 package DSA;
 
+import java.util.Arrays;
+
 public class RotateArr {
     public static void main(String[] args) {
         int [] arr = {1,2,3,4};
 
         int k = 2;
         rotate(arr, k);
+
+        System.out.println(Arrays.toString(arr));
         
     }
     public static void rotate(int[] arr, int k) {
