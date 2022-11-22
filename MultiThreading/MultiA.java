@@ -11,7 +11,7 @@ public class MultiA extends Thread {
         MultiA m = new MultiA();
 
         // m.run();
-        m.start();
+        // m.start();
 
         for (int i=0; i<5; i++){
             System.out.println("Inside main method..");
