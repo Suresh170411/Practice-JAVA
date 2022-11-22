@@ -6,6 +6,18 @@ public class HalfUpperCase {
 
         int mid = str.length()/2;
 
-        
+        String lower = "";
+        String upper = "";
+
+        for (int i=0; i<mid; i++){
+            lower+= str.charAt(i);
+        }
+
+        for (int i=mid; i<n; i++){
+            upper+= str.charAt(i);
+        }
+
+        System.out.println(lower+upper);
+
     }
 }
