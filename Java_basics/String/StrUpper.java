@@ -2,7 +2,7 @@ package Java_basics.String;
 
 public class StrUpper {
     public static void main(String[] args) {
-        String str = "aB9cT";
+        String str = "aBcT";
 
         int n = str.length();
 
