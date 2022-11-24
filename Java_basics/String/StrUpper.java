@@ -37,8 +37,9 @@ public class StrUpper {
 
         for (int i=0; i<str.length(); i++){
             if (Character.isDigit(str.charAt(i))){
-                
+                flag = true;
             }
         }
+        return flag;
     }
 }
