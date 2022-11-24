@@ -2,9 +2,9 @@ package Java_basics.String;
 
 public class StrUpper {
     public static void main(String[] args) {
-        String str = "aBcT";
+        String str = "B9T";
 
-        System.out.println(upperCaseCheck(str) && loweCaseCheck(str) && digitCheck(str));
+        
     }
 
     public static boolean upperCaseCheck(String str){
