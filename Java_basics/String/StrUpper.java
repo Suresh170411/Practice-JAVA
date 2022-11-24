@@ -17,7 +17,7 @@ public class StrUpper {
         }else if(z == false){
             System.out.println("There Must Have One Digit..");
         }else{
-            System.out.println("Invalid password..");
+            System.out.println("Invalid password..");    // Unreachable code
         }
     }
 
