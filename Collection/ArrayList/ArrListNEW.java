@@ -13,6 +13,7 @@ public class ArrListNEW {
         System.out.println(list);
 
         System.out.println(list.get(0) instanceof Object);
+        System.out.println(list.get(0) instanceof String);
         System.out.println(list.get(1) instanceof Integer);
     }
 }
