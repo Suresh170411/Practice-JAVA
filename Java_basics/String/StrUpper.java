@@ -4,7 +4,7 @@ public class StrUpper {
     public static void main(String[] args) {
         String str = "aBcT";
 
-        int n = str.length();
+        System.out.println(upperCaseCheck(str) && loweCaseCheck(str) && digitCheck(str));
     }
 
     public static boolean upperCaseCheck(String str){
