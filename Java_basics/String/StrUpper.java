@@ -8,7 +8,7 @@ public class StrUpper {
 
         boolean flag = false;
         for (int i=0; i<n; i++){
-            if (Character.isUpperCase(str.charAt(i))){
+            if (Character.isUpperCase(str.charAt(i)) || Character.isLowerCase(str.charAt(i))){
                 flag = true;
             }
         }
