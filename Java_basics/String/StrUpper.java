@@ -4,7 +4,21 @@ public class StrUpper {
     public static void main(String[] args) {
         String str = "B9T";
 
-        
+        boolean x = upperCaseCheck(str);
+        boolean y = loweCaseCheck(str);
+        boolean z = digitCheck(str);
+
+        if (x && y && z){
+            System.out.println("Password Accepted..");
+        }else if(x == false){
+            System.out.println("There Must Have One UpperCase..");
+        }else if(y == false){
+            System.out.println("There Must Have One LowerCase..");
+        }else if(z == false){
+            System.out.println("There Must Have One Digit..");
+        }else{
+            System.out.println("Invalid password..");
+        }
     }
 
     public static boolean upperCaseCheck(String str){
