@@ -5,15 +5,6 @@ public class StrUpper {
         String str = "aBcT";
 
         int n = str.length();
-
-        boolean flag = false;
-        for (int i=0; i<n; i++){
-            if (
-            Character.isDigit(str.charAt(i))){
-                flag = true;
-            }
-        }
-        System.out.println(flag);
     }
 
     public static boolean upperCaseCheck(String str){
@@ -38,5 +29,14 @@ public class StrUpper {
             }
         }
         return flag;
+    }
+
+    public static boolean digitCheck(String str){
+
+        boolean flag = false;
+
+        for (int i=0; i<str.length(); i++){
+            if ()
+        }
     }
 }
