@@ -11,8 +11,13 @@ public class SprialTraversal {
         int bottom = N-1;
         int left = 0;
         int right = M-1;
+        int dir = 1;
 
-        
+        while (left < right && top < bottom){
+            for (int i=top; i<=bottom; i++){
+                Syso
+            }
+        }
 
     }
 }
