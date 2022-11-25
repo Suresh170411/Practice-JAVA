@@ -16,6 +16,10 @@ public class SumOfSqArr {
     public static boolean check(int n){
         
         boolean flag = false;
+        
+        if(n == 0){
+            flag = true;
+        }
         for (int i=0; i<n; i++){
             for (int j=0; j<n; j++){
                 if(i*i + j*j == n){
