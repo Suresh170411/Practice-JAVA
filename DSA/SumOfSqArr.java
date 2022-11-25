@@ -7,7 +7,9 @@ public class SumOfSqArr {
         boolean flag = check(n);
 
         if (flag){
-            System.out.println("");
+            System.out.println("YES");
+        }else {
+            System.out.println("NO");
         }
     }
 
