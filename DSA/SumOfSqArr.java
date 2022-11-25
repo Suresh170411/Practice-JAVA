@@ -17,4 +17,14 @@ public class SumOfSqArr {
         }
         return false;
     }
+
+    public static boolean checkSum(int n){
+        //<------------------ optimized Brute force 2 ----------->
+
+        for(long i=0;i*i <= n;i++){
+            double b = Math.sqrt(n-i*i);
+            if(b == (int)b) return true;
+        }
+        return false;
+    }
 }
