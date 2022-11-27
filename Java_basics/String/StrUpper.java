@@ -35,14 +35,14 @@ public class StrUpper {
 
     public static boolean loweCaseCheck(String str){
 
-        boolean flag = false;
+            boolean flag = false;
 
-        for (int i=0; i<str.length(); i++){
-            if (Character.isLowerCase(str.charAt(i))){
-                flag = true;
+            for (int i=0; i<str.length(); i++){
+                if (Character.isLowerCase(str.charAt(i))){
+                    flag = true;
+                }
             }
-        }
-        return flag;
+            return flag;
     }
 
     public static boolean digitCheck(String str){
