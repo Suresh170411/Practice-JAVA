@@ -9,7 +9,7 @@ public class StrSortBrute {
         char arr[] = str.toCharArray();
  
         // Nested loops for comparison of characters
-        // in above character array
+        // in above character array   
         char temp;
  
         int i = 0;
@@ -29,7 +29,7 @@ public class StrSortBrute {
         }
         // By now loop is done means we have
         // iterated the whole array
-        System.out.println(arr);
+        System.out.println(arr); 
     
     }
 
