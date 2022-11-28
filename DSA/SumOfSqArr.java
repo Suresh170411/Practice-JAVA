@@ -3,7 +3,11 @@ public class SumOfSqArr {
     public static void main(String[] args) {
         int n = 0;
 
-        System.out.println(check(n));
+        // System.out.println(check(n));
+
+        String str = "HEllo";
+
+        System.out.println(str.equals("HELLO"));
     }
 
     public static boolean check(int n){
