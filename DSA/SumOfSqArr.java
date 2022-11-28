@@ -19,7 +19,7 @@ public class SumOfSqArr {
     }
 
     public static boolean checkSum(int n){
-        //<------------------ optimized Brute force 2 ----------->
+        //<------------------ optimized Brute force 2 ------------->
 
         for(long i=0;i*i <= n;i++){
             double b = Math.sqrt(n-i*i);
