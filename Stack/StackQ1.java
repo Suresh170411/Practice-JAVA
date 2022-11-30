@@ -29,11 +29,13 @@ public class StackQ1 {
             sb.append(c);
         }
 
-        if (sb.length() == 0){
-            System.out.println("Empty String");
-        }else{
-            System.out.println(sb);
-        }
+        // if (sb.length() == 0){
+        //     System.out.println("Empty String");
+        // }else{
+        //     System.out.println(sb);
+        // }
+
+        
 
     }
 }
