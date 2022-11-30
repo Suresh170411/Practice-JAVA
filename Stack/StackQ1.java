@@ -3,7 +3,7 @@ package Stack;
 import java.util.Stack;
 
 public class StackQ1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    // String shorting stack question---->
         
         String str = "aaabccddd";
 
@@ -37,6 +37,6 @@ public class StackQ1 {
 
         String res =sb.length() == 0 ? "Empty String" : sb.toString();
         System.out.println(res);
-        
+
     }
 }
