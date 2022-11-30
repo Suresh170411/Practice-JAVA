@@ -7,7 +7,6 @@ public class StackQ1 {
         
         String str = "aaabccddd";
         char [] arr = str.toCharArray();
-        int n = str.length();
 
         Stack<Character> stack = new Stack<>();
 
