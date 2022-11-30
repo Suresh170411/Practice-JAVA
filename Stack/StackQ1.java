@@ -7,7 +7,9 @@ public class StackQ1 {
         
         String str = "aaabccddd";
 
-        System.out.println(str.length());
+        int n = str.length();
+
+        
 
     }
 }
