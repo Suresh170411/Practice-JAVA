@@ -6,9 +6,7 @@ public class StackQ1 {
     public static void main(String[] args) {    // String shorting stack question---->
         
         String str = "aaabccddd";
-
         char [] arr = str.toCharArray();
-
         int n = str.length();
 
         Stack<Character> stack = new Stack<>();
