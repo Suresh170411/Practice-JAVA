@@ -9,7 +9,7 @@ public class RecFibonacci {
 
         int c = a+b;
         System.out.println(c);
-        printFibona(b, c, n-1);         // printing FIBONACCI using RECURSION
+        printFibona(b, c, n-1);      // printing FIBONACCI using RECURSION
     }
 
     public static void main(String[] args) {
