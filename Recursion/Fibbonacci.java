@@ -6,7 +6,7 @@ public class Fibbonacci {
         System.out.println(fib(n));
     }
 
-    public static int fib(int n){
+    public static int fib(int n){   // COUNTING....
 
         if (n <= 1) return 1;
 
