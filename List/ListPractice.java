@@ -5,8 +5,7 @@ import java.util.List;
 public class ListPractice {
     public static void main(String[] args) {
         
-
-
+        System.out.println(getList());
     }
 
     public static List<Integer> getList(){
