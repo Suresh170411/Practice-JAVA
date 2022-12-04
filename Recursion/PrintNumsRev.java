@@ -7,7 +7,7 @@ public class PrintNumsRev {
     }
     public static void printNums(int n){
         if (n == 0) return;
-        System.out.println(n);
+        System.out.print(n+" ");
         printNums(n-1);
     }
 }
