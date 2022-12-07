@@ -8,7 +8,7 @@ public class CheckVowel {
 
         String str = "ankushIsnotgOOD";
 
-        Pattern p = Pattern.compile("[aeiouAEIOU]");
+        Pattern p = Pattern.compile("[aeiouAEIOU]");    // countin vowels
         Matcher m = p.matcher(str);
 
         int vowel = 0;
