@@ -7,6 +7,12 @@ public class SmallestNearest {
     public static void main(String[] args) {
         
         int [] arr = {5,4,1,2,4,3};
+        checkLestSmallestStack(arr);
+    }
+
+    public static void checkLestSmallestStack(int [] arr){
+        int n = arr.length;
+
         int ans [] = new int [arr.length];
         Stack<Integer> st = new Stack<>();
 
