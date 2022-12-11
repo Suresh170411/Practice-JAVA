@@ -8,6 +8,7 @@ public class SmallestNearest {
         
         int [] arr = {5,4,1,2,4,3};
         checkLestSmallestStack(arr);
+        checkLestElemWihtBF(arr);
     }
 
     public static void checkLestSmallestStack(int [] arr){
@@ -26,5 +27,26 @@ public class SmallestNearest {
             st.push(arr[i]);
         }
         System.out.println(Arrays.toString(ans));
+    }
+
+    public static void checkLestElemWihtBF(int arr []){
+        int n = arr.length;
+        int res = 0;
+        System.out.print(-1+" ");
+        // Start from second element
+        for (int i = 1; i < n; i++) {
+            // look for smaller element on left of 'i'
+            
+            for (int j = i - 1; j >= 0; j--) {
+                if (arr[j] < arr[i]) {
+                    System.out.print(arr[j] + " ");
+                    res = 1;
+                    break;
+                }
+            }
+            // If there is no smaller element on left of 'i'
+            if (res == 0)
+                System.out.print(-1+" ");
+        }
     }
 }
