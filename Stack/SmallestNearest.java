@@ -32,11 +32,10 @@ public class SmallestNearest {
     public static void checkLestElemWihtBF(int arr []){
         int n = arr.length;
         int res = 0;
+
         System.out.print(-1+" ");
-        // Start from second element
+
         for (int i = 1; i < n; i++) {
-            // look for smaller element on left of 'i'
-            
             for (int j = i - 1; j >= 0; j--) {
                 if (arr[j] < arr[i]) {
                     System.out.print(arr[j] + " ");
@@ -44,9 +43,9 @@ public class SmallestNearest {
                     break;
                 }
             }
-            // If there is no smaller element on left of 'i'
-            if (res == 0)
+            if (res == 0){
                 System.out.print(-1+" ");
+            }
         }
     }
 }
