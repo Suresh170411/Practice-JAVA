@@ -1,5 +1,6 @@
 package Stack;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 public class SmallestNearest {
@@ -15,8 +16,11 @@ public class SmallestNearest {
                 st.pop();
 
                 if (st.isEmpty()) ans[i] = -1;
+                else ans[i] = st.peek();
+
+                st.push(arr[i]);
             }
         }
-
+        System.out.println(Arrays.toString(ans));
     }
 }
