@@ -11,6 +11,8 @@ public class SmallestNearest {
         checkLestElemWihtBF(arr);
     }
 
+    // <---------------- STACK APPROACH --------------->
+
     public static void checkLestSmallestStack(int [] arr){
         int n = arr.length;
 
@@ -29,6 +31,8 @@ public class SmallestNearest {
         System.out.println(Arrays.toString(ans));
     }
 
+
+    //<-------------------- BRUTE FORCE APPROACH--------------->
     public static void checkLestElemWihtBF(int arr []){
         int n = arr.length;
         int res = 0;
