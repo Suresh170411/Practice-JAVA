@@ -18,7 +18,7 @@ public class RecFibonacci {
         System.out.println(a);
         System.out.println(b);
 
-        int n = 7;
+        int n = 5;
         printFibona(a, b, n-2);
     }
 }
