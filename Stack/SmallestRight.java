@@ -5,6 +5,9 @@ public class SmallestRight {
         
     }
 
+    
+
+    // <--------- BRUTE FORCE ------------>
     public static void smallestRightBF(int [] arr){
         int n = arr.length;
         int next;
