@@ -29,6 +29,7 @@ public class SmallestNearest {
             st.push(arr[i]);
         }
         System.out.println(Arrays.toString(ans));
+        // System.out.println(st);
     }
 
 
