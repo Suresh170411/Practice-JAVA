@@ -13,6 +13,6 @@ public class ClearCheck {
 
         list.clear();
 
-        // System.out.println(list);
+        System.out.println(list);
     }
 }
