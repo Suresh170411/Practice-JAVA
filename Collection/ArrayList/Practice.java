@@ -21,5 +21,10 @@ public class Practice {
         list.clear();
 
         System.out.println(list);
+
+        // TRAVERSAL ON A ARRAYLIST 
+        for (Integer i : newList){
+            System.out.println(i);
+        }
     }
 }
