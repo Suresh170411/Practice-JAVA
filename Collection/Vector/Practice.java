@@ -9,5 +9,9 @@ public class Practice {
         v.add(20);
 
         System.out.println(v);
+
+        for (Integer i : v){
+            System.out.println(i);
+        }
     }
 }
