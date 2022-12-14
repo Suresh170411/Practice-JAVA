@@ -16,5 +16,10 @@ public class Practice {
         newList.addAll(1,list);
         System.out.println(newList);
 
+
+        // .clear() method 
+        list.clear();
+
+        System.out.println(list);
     }
 }
