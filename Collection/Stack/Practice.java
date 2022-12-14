@@ -11,6 +11,10 @@ public class Practice {
         s.add(30);
         System.out.println(s);
 
+        s.pop();
+        s.pop();
+        System.out.println("--> "+s.peek());
+
         Stack<Integer> stack = new Stack<>();
         stack.add(11);
         stack.add(22);
