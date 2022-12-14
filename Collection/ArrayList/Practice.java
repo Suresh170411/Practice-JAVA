@@ -26,5 +26,12 @@ public class Practice {
         for (Integer i : newList){
             System.out.println(i);
         }
+        System.out.println("=====================");
+
+        // TRAVERSAL USING ITERATOR
+        Iterator<Integer> itr = newList.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
     }
 }
