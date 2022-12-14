@@ -9,5 +9,10 @@ public class ClearCheck {
         List<Integer> list = Arrays.asList(20,10,30,40,80);
 
         System.out.println(list);
+        System.out.println(list.get(2));
+
+        list.clear();
+
+        // System.out.println(list);
     }
 }
