@@ -46,6 +46,7 @@ public class SmallestNearest {
                     break;
                 }
             }
+            
             if (res == 0){
                 System.out.print(-1+" ");
             }
