@@ -11,8 +11,6 @@ public class ClearCheck {
         System.out.println(list);
         System.out.println(list.get(2));
 
-        list.clear();
-
-        System.out.println(list);
+        
     }
 }
