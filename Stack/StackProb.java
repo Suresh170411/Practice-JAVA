@@ -11,6 +11,7 @@ public class StackProb {
         stack.push(30);
         stack.push(40);
         stack.pop();
+        stack.pop();
 
         System.out.println(stack);
         System.out.println(stack.peek());
