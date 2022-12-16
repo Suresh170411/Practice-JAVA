@@ -10,7 +10,13 @@ public class Practice {
         
         for (int i=0; i<arr.length; i++){
             int x = arr[i];
-            if (x )
+            if (hm.containsKey(x) == false){
+                hm.put(x, 1);
+            }else{
+                hm.put(x, hm.get(x)+1);
+            }
         }
+
+        System.out.println(hm);
     }
 }
