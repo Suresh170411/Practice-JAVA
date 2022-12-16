@@ -17,6 +17,8 @@ public class Practice {
             }
         }
 
-        System.out.println(hm);
+        for (Map.Entry<Integer,Integer> m : hm.entrySet()){
+            System.out.println(m.getKey()+"=="+m.getValue());
+        }
     }
 }
