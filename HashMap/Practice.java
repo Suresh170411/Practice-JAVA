@@ -12,5 +12,9 @@ public class Practice {
             hm.put(arr[i], hm.getOrDefault(arr[i], 0)+1);
         }
         System.out.println(hm);
+
+        for (Integer i : hm.keySet()){
+            System.out.println(i);
+        }
     }
 }
