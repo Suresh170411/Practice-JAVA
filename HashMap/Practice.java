@@ -12,8 +12,6 @@ public class Practice {
             i
         }
 
-        for (Map.Entry<Integer,Integer> m : hm.entrySet()){
-            System.out.println(m.getKey()+" "+m.getValue());
-        }
+        
     }
 }
