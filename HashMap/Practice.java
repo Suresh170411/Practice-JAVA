@@ -9,12 +9,15 @@ public class Practice {
         Map<Integer,Integer> hm = new HashMap<>();
         
         for (int i=0; i<arr.length; i++){
-            hm.put(arr[i], hm.getOrDefault(arr[i], 0)+1);
+            int x = arr[i];
+            if (hm.containsKey(x) == false){
+                hm.put(x,1);
+            }else{
+                hm.put(x,hm.get(x)+1);
+            }
         }
-
-        for (Map.Entry<Integer,Integer> m : hm.entrySet()){
-            System.out.println(m.getKey()+"__"+m.getValue());
+        for (Integer i : hm.keySet()){
+            System.out.println(i+"=="+hm.get(i));
         }
-        
     }
 }
