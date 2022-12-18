@@ -22,7 +22,7 @@ public class IntArr {
         }
 
         for (String s : names){
-            System.out.println(s);      // ENHANCHED FOR LOOP
+            System.out.println(s);     // ENHANCHED FOR LOOP
         }
 
     }
