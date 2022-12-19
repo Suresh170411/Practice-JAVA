@@ -6,9 +6,7 @@ public class Practice5 {
         System.out.println(n);
     }
     public static int printSum(int n){
-        int sum = 0;
         if (n <= 0) return n;
-        sum+= printSum(n-1);
-        return sum;
+        return n+printSum(n-1);
     }
 }
