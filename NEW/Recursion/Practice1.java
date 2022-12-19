@@ -6,6 +6,9 @@ public class Practice1 {
         System.out.println(calcFactorial(n));
     }
     public static int calcFactorial(int n){
-        return 1;
+        
+        if (n == 0 || n == 1) return 1;
+
+        return n*calcFactorial(n-1);
     }
 }
