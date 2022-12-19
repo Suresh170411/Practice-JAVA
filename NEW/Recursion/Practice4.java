@@ -6,9 +6,7 @@ public class Practice4 {
         printNums(n);
     }
     public static void printNums(int n){
-        if (n == 6){
-            return;
-        }
+        if (n == 6) return;
 
         System.out.print(n+" ");
         printNums(n+1);
