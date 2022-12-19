@@ -5,7 +5,6 @@ public class Practice6 {
         
     }
     public static void fibo(int n){
-        if (n<=1) return;
         
     }
 }
