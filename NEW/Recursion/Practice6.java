@@ -4,7 +4,7 @@ public class Practice6 {
     public static void main(String[] args) {
         
     }
-    public static void fibo(int n){
+    public static void fibo(int a, int b, int c){
         
     }
 }
