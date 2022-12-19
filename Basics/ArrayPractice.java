@@ -24,7 +24,7 @@ public class ArrayPractice {
             i++;
         } while (i < size);
 
-        sc.close();     // closed connction here for scanner class
+        sc.close();     //closed connction here for scanner class
 
     }
     
