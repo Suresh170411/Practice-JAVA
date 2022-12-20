@@ -2,7 +2,7 @@ package NEW.Recursion;
 
 public class Practice12 {
     public static void main(String[] args) {
-        
+        System.out.println(hani(4));
     }
     public static int hani(int x){
         if (x < 1) return 1;
