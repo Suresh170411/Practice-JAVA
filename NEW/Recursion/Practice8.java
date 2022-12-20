@@ -3,7 +3,8 @@ package NEW.Recursion;
 public class Practice8 {
     public static void main(String[] args) {
         int x = 3, n = 2;
-        
+        int res = calcPow(x, n);
+        System.out.println(res);
     }
     public static int calcPow(int x, int n){
         if (n == 0) return 1;
