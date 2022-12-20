@@ -9,6 +9,7 @@ public class TowerOfHanoi {
     }
     public static void TOH(int n, String source, String helper, String destination){
         count++;
+        
         if (n == 1){
             System.out.println("transfer disk "+n+" from "+source+" to "+destination);
             return;
