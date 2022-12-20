@@ -1,7 +1,7 @@
 package NEW.Recursion;
 
 public class Practice8 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    // calculate X^N (LOGn)
         int x = 3, n = 2;
         int res = calcPow(x, n);
         System.out.println(res);
