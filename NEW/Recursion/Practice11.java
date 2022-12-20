@@ -1,4 +1,5 @@
 package NEW.Recursion;
+
 public class Practice11 {
     public static void main(String[] args) {
         System.out.println(fun(4, 3));
