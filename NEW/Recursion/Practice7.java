@@ -8,6 +8,8 @@ public class Practice7 {
         int res = calcPower(x, n);
         System.out.println(res);
 
+        // System.out.println(Math.pow(x, n));
+
     }
     public static int calcPower(int x, int n){
         if (x == 0) return 0;
