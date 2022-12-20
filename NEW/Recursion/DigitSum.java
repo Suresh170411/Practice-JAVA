@@ -1,6 +1,6 @@
 package NEW.Recursion;
 
-public class Practice14 {
+public class DigitSum {
     public static void main(String[] args) {
         int n = 12345;
         System.out.println(digitSum(n));
