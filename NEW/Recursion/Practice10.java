@@ -5,7 +5,7 @@ public class Practice10 {
         int n = 5;
         printNums(n);
         System.out.println();
-        printNumsRev(1);
+        printNumsRev(n);
     }
     public static void printNums(int n){
         if (n == 0){
@@ -15,10 +15,8 @@ public class Practice10 {
         System.out.print(n+" ");
     }
     public static void printNumsRev(int n){
-        if (n > 5){
-            return;
-        }
-        printNumsRev(n+1);
+        if (n == 0) return;
         System.out.print(n+" ");
+        printNumsRev(n-1);
     }
 }
