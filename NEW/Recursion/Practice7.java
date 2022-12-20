@@ -2,15 +2,17 @@ package NEW.Recursion;
 
 public class Practice7 {
     public static void main(String[] args) {
-        
+        int x = 3;
+        int n = 2;
+
+        int res = calcPower(x, n);
+        System.out.println(res);
 
     }
     public static int calcPower(int x, int n){
-        if (n == 0) return 1;
         if (x == 0) return 0;
+        if (n == 0) return 1;
 
-        int xPownm1 = calcPower(x, n-1);
-        int xPown = x * xPownm1;
-        return xPown;
+        
     }
 }
