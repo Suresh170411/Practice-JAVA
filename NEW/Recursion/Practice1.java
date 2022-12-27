@@ -1,5 +1,6 @@
 package NEW.Recursion;
 
+// FACTORIAL recursive solution-->
 public class Practice1 {
     public static void main(String[] args) {
         int n = 5;
