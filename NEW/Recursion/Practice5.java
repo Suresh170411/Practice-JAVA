@@ -7,6 +7,7 @@ public class Practice5 {
         System.out.println(printSum(n));
     }
 
+    //print nums recursive functions
     public static int printSum(int n){
         if (n <= 1) return n;
 
