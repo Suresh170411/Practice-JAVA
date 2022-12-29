@@ -30,7 +30,7 @@ public class StackQ2 {
                 stack.push(arr[i]);
             }
         }
-        // System.out.println(stack);
+        // System.out.println(stack); 
 
         StringBuilder sb = new StringBuilder();
         for (Character c: stack){
