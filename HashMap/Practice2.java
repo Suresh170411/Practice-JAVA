@@ -8,12 +8,8 @@ public class Practice2 {
 
         HashMap<Integer,Integer> hm = new HashMap<>();
 
-        for (int i=0; i<arr.length; i++){
-            if (hm.containsKey(arr[i]) == false){
-                hm.put(arr[i], 1);
-            }else {
-                hm.put(arr[i],hm.get(arr[i])+1);
-            }
+        for (int i : arr){
+            hm.put(i, hm.getOrDefault(i,0)+1);
         }
         System.out.println(hm);
     }
