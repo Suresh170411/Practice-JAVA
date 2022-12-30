@@ -32,7 +32,6 @@ public class SmallestNearest {
         // System.out.println(st);
     }
 
-
     //<-------------------- BRUTE FORCE APPROACH--------------->
     public static void checkLestElemWihtBF(int arr []){
         int n = arr.length;
