@@ -34,6 +34,5 @@ public class StackQ1 {
 
         String res =sb.length() == 0 ? "Empty String" : sb.toString();
         System.out.println(res);
-
     }
 }
