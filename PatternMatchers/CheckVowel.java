@@ -17,7 +17,7 @@ public class CheckVowel {
         }
         System.out.println("Number of vowel : "+vowel);
 
-        Pattern p1 = Pattern.compile("[^aeiouAEIOU]");  // counting consonant
+        Pattern p1 = Pattern.compile("[^aeiouAEIOU]");  //  counting consonant
         Matcher m1 = p1.matcher(str);
 
         int consonent = 0;
