@@ -9,8 +9,12 @@ public class ReverseSort {
         int arr [] = {1,4,2,5,0,3,6};
 
         Arrays.sort(arr);
+        
+        
 
-        Collections.reverse(Arrays.asList(arr));
+        for(int i : arr){
+            
+        }
 
         // System.out.println(Arrays.toString(arr));
 
