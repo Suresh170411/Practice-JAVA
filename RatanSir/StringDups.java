@@ -1,7 +1,9 @@
 package RatanSir;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
+import java.util.List;
 
 public class StringDups {
     public static void main(String[] args) {
@@ -20,7 +22,11 @@ public class StringDups {
             lhs.add(arr[i]);
         }
 
-        System.out.println(lhs);
+        // System.out.println(lhs);
+
+        List<Character> list = new ArrayList<>(lhs);
+
+        System.out.println(list);
 
     }
 }
