@@ -17,5 +17,5 @@ public class FindMissingNum {
         }
 
         System.out.println("The missing number is: "+(sum-actualSum));
-    } 
+    }
 }
