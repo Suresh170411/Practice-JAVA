@@ -2,21 +2,14 @@ package Arrays;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+
 
 public class ReverseSort {
     public static void main(String[] args) {
-        int arr [] = {1,4,2,5,0,3,6};
+        Integer [] arr = {5,0,1,4,3,2};
 
-        Arrays.sort(arr);
-        
-        
+        Arrays.sort(arr,Collections.reverseOrder());
 
-        for(int i : arr){
-            
-        }
-
-        // System.out.println(Arrays.toString(arr));
-
+        System.out.println(Arrays.toString(arr));
     }
 }
