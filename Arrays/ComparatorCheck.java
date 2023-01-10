@@ -1,8 +1,10 @@
 package Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.TreeSet;
 
 public class ComparatorCheck implements Comparator<Student> {
 
@@ -13,11 +15,20 @@ public class ComparatorCheck implements Comparator<Student> {
     }
 
     public static void main(String[] args) {
-        List<Student> list = Arrays.asList(
-            new Student(10,"suresh",650),
-            new Student(20,"priti",540)
-            );
+        
+        ComparatorCheck chk = new ComparatorCheck();
 
-        System.out.println(list);
+        // ArrayList<Student> list = new ArrayList<>(chk);
+
+        TreeSet<Student> set = new TreeSet<>(chk);
+
+        set.add(new Student(10,"suresh",650));
+		set.add(new Student(11,"suresh",350));
+		set.add(new Student(12,"suresh",550));
+		set.add(new Student(13,"suresh",450));
+
+        for (Student s : set){
+            System.out.println(s);
+        }
     }
 }
